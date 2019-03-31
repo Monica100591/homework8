@@ -8,7 +8,7 @@
  */
 public class Observer {
 	
-	public void notifyObservers () {
+	public void notifyObserver () {
 	}
 
 }
