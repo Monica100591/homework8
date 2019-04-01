@@ -8,19 +8,18 @@
  */
 public class Event {
 
-	private eventNumber (int){
-}
-	
-	private eventData (int){
-}
+	private int eventNumber;
+	private int eventData;
 	
 	public getEventData(int){
+		return eventData;
 }
 
 	public getEventNumber(int){
+		return eventNumber;
 }
 
-	public Event(int){
+	public void Event(int eventNumber, int eventData){
 }
 
 }
