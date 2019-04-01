@@ -8,6 +8,6 @@
  */
 public interface Observer {
 	
-	public void notifyObserver(Event e);
+	public boolean notifyObserver(Event e);
 
 }
