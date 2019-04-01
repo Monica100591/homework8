@@ -1,7 +1,9 @@
-/PublisherInterface.class
-/Publisher.class
+/Event.class
 /Observer.class
 /PublisherImplementation.class
-/Event.class
+/PublisherInterface.class
 /RunHW8.class
+/SubscriberEvens.class
+/SubscriberOdds.class
+/SubscriberThrees.class
 /homework8/
