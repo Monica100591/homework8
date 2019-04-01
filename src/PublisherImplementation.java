@@ -40,10 +40,9 @@ public class PublisherImplementation implements PublisherInterface {
 					} 
 				}
 			}
-			if (i % 40 == 0 && i / 40 > 0 && i / 40 < 6) {	// For iteration 40, 80, 120, 160, 200
-				// register SubscriberOdds if it is unregistered
-				// register SubscriberThrees if it is unregistered
-			}
+			// For iteration 40, 80, 120, 160, 200
+			// register SubscriberOdds if it is unregistered
+			// register SubscriberThrees if it is unregistered
 		}
 	}
 	
