@@ -8,7 +8,7 @@
  */
 public class Observer {
 	
-	public void notifyObserver () {
+	public void notifyObserver (Event e) {
 	}
 
 }

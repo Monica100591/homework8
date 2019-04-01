@@ -6,12 +6,12 @@
  * @author monic_000
  *
  */
-public interface Publisher {
+public interface PublisherInterface {
 	
-	public void registerObserver();
+	public void registerObserver(Observer o);
 	
-	public void removeObserver();
+	public void removeObserver(Observer o);
 	
-	public void notifyObserver();
+	public void notifyObserver(Observer o);
 
 }

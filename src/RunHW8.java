@@ -8,12 +8,13 @@
  *
  */
 public class RunHW8 {
-
+	
+	private PublisherImplementation pub;
+	
 	public static void main (String args[]) {
 		
 	}
 	
-	private void publisherImplementation () {
 }
 	
 	

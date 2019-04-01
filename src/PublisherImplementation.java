@@ -6,15 +6,13 @@
  * @author monic_000
  *
  */
-public class PublisherImplementation {
+public class PublisherImplementation implements Publisher {
+	private List<Observer> subscribers = new ArrayList<>(); 
 	
-	private void subscribers () {
-	}
-	
-	private void generateEvent () {
+	private Event generateEvent () {
 	} 
 	
-	public void notifyObserver () {
+	public void notifyObserver (Event e) {
 	}
 	
 	public void runSimulation () {
