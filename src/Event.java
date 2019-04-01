@@ -11,15 +11,17 @@ public class Event {
 	private int eventNumber;
 	private int eventData;
 	
-	public getEventData(int){
+	public void Event(int EventNumber, int EventData){
+		eventNumber = EventNumber;
+		eventData = EventData;
+	}
+	
+	public int getEventData(){
 		return eventData;
-}
+	}
 
-	public getEventNumber(int){
+	public int getEventNumber(){
 		return eventNumber;
-}
-
-	public void Event(int eventNumber, int eventData){
-}
+	}
 
 }
