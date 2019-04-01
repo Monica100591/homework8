@@ -13,12 +13,12 @@ public class PublisherImplementation implements PublisherInterface {
 		return new Event();
 	} 
 	
-	public void notifyObserver (Event e) {
+	public void notifyObserver(Event e) {
 		for(Observer sub: subscribers)
 			sub.notifyObserver(e);
 	}
 	
-	public void runSimulation () {
+	public void runSimulation() {
 		int oddVal = 0;
 		int threeVal = 0;
 		boolean istrue = false;
@@ -40,7 +40,7 @@ public class PublisherImplementation implements PublisherInterface {
 					} 
 				}
 			}
-			if ( i % 40 == 0 && i / 40 > 0 && i / 40 < 6) {	// For iteration 40, 80, 120, 160, 200
+			if (i % 40 == 0 && i / 40 > 0 && i / 40 < 6) {	// For iteration 40, 80, 120, 160, 200
 				// register SubscriberOdds if it is unregistered
 				// register SubscriberThrees if it is unregistered
 			}
@@ -56,7 +56,7 @@ public class PublisherImplementation implements PublisherInterface {
 	}
 	
 	@Override
-	public void notifyObserver (Observer o) {
+	public void notifyObserver(Observer o) {
 		o.notifyObserver(generateEvent());
 	}
 }
